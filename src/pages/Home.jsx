@@ -26,9 +26,18 @@ const Home = () => {
     }
 
     const googleLogin = async () => {
-        const data = await signInWithPopup(auth, googleProvider)
-        const token = await data.user.getIdToken()
-        await handleLogin(token)
+        try {
+            const data = await signInWithPopup(auth, googleProvider)
+            const token = await data.user.getIdToken()
+            await handleLogin(token)
+        } catch (error) {
+            if(error.code === 'auth/popup-blocked') {
+                alert("Authentication Paused: Your browser's popup blocker prevented the secure Google Login window from opening. Please allow popups for this domain to continue.");
+            } else {
+                console.error("Login Error:", error);
+                alert("An error occurred connecting to the authentication server. Please try again.");
+            }
+        }
     }
 
 
