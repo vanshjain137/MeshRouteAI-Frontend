@@ -24,22 +24,37 @@ The responsive user interface for **MeshRoute AI**, an intelligent AI routing an
 
 ## 🚀 Getting Started
 
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
 1. Clone the repository:
-git clone https://github.com/vanshjain137/meshrouteai-frontend.git
+```bash
+git clone [https://github.com/vanshjain137/meshrouteai-frontend.git](https://github.com/vanshjain137/meshrouteai-frontend.git)
+```
 
 2. Navigate into the directory:
+```bash
 cd meshrouteai-frontend
+```
 
 3. Install the dependencies:
+```bash
 npm install
+```
 
-4. Create a .env file in the root directory and add your credentials:
+4. Create a `.env` file in the root directory and add your Firebase and Backend API credentials:
+```bash
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_BACKEND_URL=your_gateway_url
+```
 
 5. Start the development server:
+```bash
 npm start
+```
 
 ## 🔗 Links
 * **Live Demo:** [https://meshroute-ai.vercel.app]
-* **Backend Repository:** https://github.com/vanshjain137/meshrouteai-backend
+* **Backend Repository:** [https://github.com/vanshjain137/meshrouteai-backend](https://github.com/vanshjain137/meshrouteai-backend)
