@@ -1,16 +1,45 @@
-# React + Vite
+# 🌌 MeshRoute AI - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Currently, two official plugins are available:
+The responsive user interface for **MeshRoute AI**, an intelligent AI routing and microservices platform. Built with React, this frontend delivers a seamless user experience with secure authentication and dynamic cross-origin API routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Secure Authentication:** Integrated Firebase OAuth for safe and reliable user login and session management.
+* **Dynamic API Routing:** Smooth cross-origin communication with the microservices backend architecture.
+* **Responsive UI:** Clean, intuitive interface built to handle complex chat interfaces and AI interactions gracefully.
+* **Graceful Error Handling:** Comprehensive front-end error catching to ensure a continuous and fluid user experience.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Core:** React.js, JavaScript (ES6+)
+* **Styling:** CSS3, HTML5
+* **Authentication:** Firebase Auth
+* **Deployment:** Vercel
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+git clone https://github.com/vanshjain137/meshrouteai-frontend.git
+
+2. Navigate into the directory:
+cd meshrouteai-frontend
+
+3. Install the dependencies:
+npm install
+
+4. Create a .env file in the root directory and add your credentials:
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_BACKEND_URL=your_gateway_url
+
+5. Start the development server:
+npm start
+
+## 🔗 Links
+* **Live Demo:** [https://meshroute-ai.vercel.app]
+* **Backend Repository:** https://github.com/vanshjain137/meshrouteai-backend
