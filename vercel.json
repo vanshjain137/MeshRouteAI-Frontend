@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://meshrouteai-backend.duckdns.org/api/:path*"
+      "destination": "https://meshrouteai-backend.onrender.com/api/:path*"
     },
     {
       "source": "/(.*)",
