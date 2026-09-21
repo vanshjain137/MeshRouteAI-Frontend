@@ -4,6 +4,13 @@
 ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
+## 🌐 Live Demo & Links
+* **Live App:** [https://meshroute-ai.vercel.app](https://meshroute-ai.vercel.app)
+* **Backend Repo:** [https://github.com/vanshjain137/meshrouteai-backend](https://github.com/vanshjain137/meshrouteai-backend)
+
+https://github.com/user-attachments/assets/fe340a27-e541-4b91-95db-ccfc00dca937
+
+
 The responsive user interface for **MeshRoute AI**, an intelligent AI routing and microservices platform. Built with React, this frontend delivers a seamless user experience with secure authentication and dynamic cross-origin API routing.
 
 ---
