@@ -62,6 +62,10 @@ REACT_APP_BACKEND_URL=your_gateway_url
 npm start
 ```
 
-## 🔗 Links
-* **Live Demo:** [https://meshroute-ai.vercel.app]
-* **Backend Repository:** [https://github.com/vanshjain137/meshrouteai-backend](https://github.com/vanshjain137/meshrouteai-backend)
+## 👤 Author
+
+**Vansh Jain**
+- **LinkedIn:** [linkedin.com/in/vanshjain137](https://www.linkedin.com/in/vanshjain137)
+- **GitHub:** [@vanshjain137](https://github.com/vanshjain137)
+- **Live Demo:** [https://meshroute-ai.vercel.app](https://meshroute-ai.vercel.app)
+- **Portfolio:** [https://vansh-os-three.vercel.app/](https://vansh-os-three.vercel.app/)
